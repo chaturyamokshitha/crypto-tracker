@@ -1,0 +1,42 @@
+/* styles/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* styles/globals.css */
+/* styles/globals.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* styles/globals.css */
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+/* styles/globals.css */
+.parallax-container {
+    height: 100vh;
+    /* Full viewport height for each section */
+    background-image: url('/bitcoin.png');
+    /* Path to Bitcoin image */
+    background-attachment: fixed;
+    /* Creates the parallax effect */
+    background-size: cover;
+    /* Cover the entire container */
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Prevents image repetition */
+}
+.content {
+    position: relative;
+    z-index: 1;
+    padding: 50px;
+    background-color: rgba(255, 255, 255, 0.8);
+    /* White background with slight transparency */
+    max-width: 800px;
+    margin: 0 auto;
+}
