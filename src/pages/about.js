@@ -1,4 +1,5 @@
 // pages/about.js
+import Cont from "@/components/Cont";
 import Navbar from "../components/NavBar";
 import { useState } from 'react';
 const About = () => {
@@ -10,7 +11,7 @@ const About = () => {
                     display: 'flex',
                     justifyContent: 'center',
                     alignItems: 'center',
-                    height: '95vh',    // Full viewport height
+                    height: '100vh',    // Full viewport height
                     color: 'white',
                     padding: '2rem',
                     textAlign: 'center',
@@ -44,6 +45,7 @@ const About = () => {
                     answer="TxTrace takes security seriously. We ensure all transaction data is fetched securely, and we follow industry best practices to protect user information."
                     className='mb-10' />
             </div>
+            <div><Cont/></div>
         </div>
     );
 };
